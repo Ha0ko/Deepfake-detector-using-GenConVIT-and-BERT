@@ -26,7 +26,6 @@ Due to GitHub file size limits, the pre-trained model weights are hosted externa
 
 *(If you have a sample dataset, place it in the `sample_prediction_data/` folder).*
 
----
 
 ## 🛠️ Installation
 
@@ -34,34 +33,36 @@ Due to GitHub file size limits, the pre-trained model weights are hosted externa
 ```bash
 git clone https://github.com/Ha0ko/Deepfake-detector-using-GenConVIT-and-BERT.git
 cd Deepfake-detector-using-GenConVIT-and-BERT
-2. Install Dependencies
+###2. Install Dependencies
 Ensure you have Python installed, then run:
 code
 Bash
 pip install -r requirements.txt
-💻 Usage
-Option 1: Run the Web Interface
+
+##💻 Usage
+###Option 1: Run the Web Interface
 To start the graphical interface (likely Streamlit or Gradio):
 code
 Bash
 python app.py
-Option 2: Run via Command Line
+###Option 2: Run via Command Line
 To predict a specific video file:
 code
 Bash
 python predict.py --video_path sample_prediction_data/sample_1.mp4
-Option 3: Run the Backend Server
+###Option 3: Run the Backend Server
 To start the API server:
 code
 Bash
 python server.py
-Option 4: Docker
+###Option 4: Docker
 Build and run the container:
 code
 Bash
 docker build -t deepfake-detector .
 docker run -p 5000:5000 deepfake-detector
-📂 Project Structure
+
+##📂 Project Structure
 code
 Code
 ├── dataset/                # Data loaders and processing scripts
@@ -74,9 +75,11 @@ Code
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile              # Container configuration
 └── README.md               # Documentation
-📄 License
+
+##📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-🤝 Credits
+
+##🤝 Credits
 Based on the architecture of GenConViT (Generative ConvViT) and BERT transformers.
 code
 Code
