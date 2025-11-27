@@ -94,15 +94,3 @@ This project is licensed under the **MIT License** – see the LICENSE file for 
 ## 🤝 Credits
 Based on the architecture of **GenConViT (Generative ConvViT)** and **BERT transformers**.
 
----
-
-### ✔️ What you need to do now:
-1. Create a new file named `README.md`.
-2. Paste the content above.
-3. Replace the placeholder link `[INSERT YOUR GOOGLE DRIVE/DROPBOX LINK HERE]` with your actual weights link.
-4. Push the file:
-```bash
-git add README.md
-git commit -m "Add documentation"
-git push
-```
