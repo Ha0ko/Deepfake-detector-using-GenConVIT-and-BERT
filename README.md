@@ -30,7 +30,7 @@ Due to GitHub file size limits, the pre-trained model weights are hosted externa
 ## 🛠️ Installation
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/Ha0ko/Deepfake-detector-using-GenConVIT-and-BERT.git
 cd Deepfake-detector-using-GenConVIT-and-BERT
 ###2. Install Dependencies
