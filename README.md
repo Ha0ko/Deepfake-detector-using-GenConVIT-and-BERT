@@ -20,7 +20,7 @@ A hybrid deep learning framework for Deepfake detection utilizing **GenConViT** 
 ## ⚠️ Important: Download Model Weights
 Due to GitHub file size limits, the pre-trained model weights are hosted externally. You **must** download them for the detector to work.
 
-1. **Download the weights** from **[INSERT YOUR GOOGLE DRIVE/DROPBOX LINK HERE]**.
+1. **Download the weights** from **(https://drive.google.com/drive/folders/16MchwqPLGpUqGgleFnkYv3a70aQX9_K8?usp=sharing)**.
 2. Create a folder named `weight` in the root directory.
 3. Place the following files inside the `weight/` folder:
    - `genconvit_ed_inference.pth`
@@ -47,25 +47,9 @@ pip install -r requirements.txt
 
 ##  Usage
 
-### **Option 1: Run the Web Interface**
+### **Run the Web Interface**
 ```bash
-python app.py
-```
-
-### **Option 2: Run via Command Line**
-```bash
-python predict.py --video_path sample_prediction_data/sample_1.mp4
-```
-
-### **Option 3: Run the Backend Server**
-```bash
-python server.py
-```
-
-### **Option 4: Docker**
-```bash
-docker build -t deepfake-detector .
-docker run -p 5000:5000 deepfake-detector
+streamlit run app.py
 ```
 
 ---
