@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Deepfake Detector (GenConViT + BERT)
+#  Deepfake Detector (GenConViT + BERT)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange)
@@ -8,7 +8,7 @@ A hybrid deep learning framework for Deepfake detection utilizing **GenConViT** 
 
 ---
 
-## 🚀 Features
+##  Features
 - **Multi-Modal Detection:** Combines visual analysis (GenConViT) with text analysis (BERT).
 - **VAE Support:** Includes Variational Autoencoder components for feature extraction.
 - **Web Interface:** Includes `app.py` for a user-friendly GUI.
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### **Option 1: Run the Web Interface**
 ```bash
@@ -91,6 +91,6 @@ This project is licensed under the **MIT License** – see the LICENSE file for 
 
 ---
 
-## 🤝 Credits
+##  Credits
 Based on the architecture of **GenConViT (Generative ConvViT)** and **BERT transformers**.
 
